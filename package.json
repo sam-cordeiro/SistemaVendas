@@ -6,23 +6,27 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "ts-node src/script.ts",
-    "build": "tsc"
+    "build": "tsc"    
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "@prisma/client": "^6.16.0",
+    "@prisma/client": "^6.18.0",
+    "express": "^5.1.0",
+    "inquirer": "^12.10.0",
     "mongodb": "^6.19.0"
   },
   "devDependencies": {
-    "@types/node": "^24.3.1",
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.9.1",
     "install": "^0.13.0",
     "npm": "^11.6.0",
     "ou": "^0.0.2",
-    "prisma": "^6.16.0",
+    "prisma": "^6.18.0",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.2"
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
   }
 }
